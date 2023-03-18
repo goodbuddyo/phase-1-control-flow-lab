@@ -12,8 +12,6 @@ function scuberGreetingForFeet(someValue) {
 
 function ternaryCheckCity(city) {
   const taxiMessage = city === "NYC" ? "Ok, sounds good." : "No go.";
-  console.log(city);
-  console.log(taxiMessage);
   return taxiMessage;
 }
 
@@ -31,7 +29,6 @@ function switchOnCharmFromTip(tip) {
       tipResponse = "Bye."
       break;
   }
-  console.log(tipResponse);
   return tipResponse
 }
 
